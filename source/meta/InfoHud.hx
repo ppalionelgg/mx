@@ -46,8 +46,8 @@ class InfoHud extends TextField
 		// might as well have made it comic sans
 		defaultTextFormat = new TextFormat(Paths.font("vcr.ttf"), 16, color);
 		// set text area for the time being
-		//width = Main.gameWidth;
-		//height = Main.gameHeight;
+		width = Main.gameWidth;
+		height = Main.gameHeight;
 
 		text = "FPS: \nState: \nMemory:";
 
